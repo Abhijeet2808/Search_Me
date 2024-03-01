@@ -1,0 +1,8 @@
+#card-list-container {
+  height: 90vh;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-around;
+}

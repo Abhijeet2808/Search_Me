@@ -1,0 +1,10 @@
+* {
+  margin: 0px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-family: "Bigelow Rules", serif;
+}
+#header {
+  text-align: center;
+  font-size: 4rem;
+}
