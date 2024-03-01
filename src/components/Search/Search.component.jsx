@@ -3,7 +3,12 @@ import "./Search.styles.css";
 
 class Search extends Component {
   render() {
-    return <div></div>;
+    const { onSearchFieldChange } = this.props;
+    return (
+      <div id="search-container">
+        <input id="search-input" type="text" onChange={onSearchFieldChange} />
+      </div>
+    );
   }
 }
 export default Search;
